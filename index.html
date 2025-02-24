@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidhartha - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-animation">
+            <h2>Loading...</h2>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="content" class="hidden">
+        <!-- Navigation -->
+        <header>
+            <nav>
+                <div class="logo">
+                    <!-- Custom Logo -->
+                    <h2 class="logo-text">Sidhartha Manchala</h2>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <div class="container">
+                <div class="home-text">
+                    <h1>Hi, I'm Sidhartha</h1>
+                    <p>Web Developer |  Full Stack Developer | Innovator| Problem Solver</p>
+                    <a href="#contact" class="cta-button">Let's Work Together</a>
+                </div>
+                <div class="home-img">
+                    <!-- Add your photo here -->
+                    <img src="vanjangi1.JPG" alt="Sidhartha" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>     As a Java full-stack developer, I enjoy turning ideas into reality through clean and efficient code. With a keen eye for web development, I strive to create seamless and engaging digital experiences.</p>
+                <div class="about-details">
+                    <div class="info">
+                        <h3>Education</h3>
+                        <p>|  Bachelor's Degree in Computer Science|  Vignana Bharathi Institute of Technology| CGPA : 7.6  </p>
+                    </div>
+                    <div class="info">
+                        <h3>Experience</h3>
+                        <p>Web development Intern, Prodigy Infotech (2025 - Present)</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="brucephoto.jpg" alt="Project 1">
+                        <h3>BRUCE The Personal Voice Assistant</h3>
+                        <p>A voice Assistant for laptops.</p>
+                    </div>
+                    <div class="project-card">
+                        <img src="emotion.jpg" alt="Project 2">
+                        <h3> AN EMOTION BASED MUSIC PLAYER USING PYTHON</h3>
+                        <p>A music player which plays music according to your emotion.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations or job opportunities!</p>
+                <div class="contact-info">
+                    <p>Email: manchalasidhartha3@gmail.com</p>
+                    <p>Phone: +91 9398443055</p>
+                    <a href="https://github.com/Siddu2912" target="_blank">Click here  for Github</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Wait for page content to load, then hide the loader
+        window.addEventListener('load', () => {
+            document.getElementById('loader').style.display = 'none'; // Hide the loader
+            document.getElementById('content').classList.remove('hidden'); // Show content
+        });
+    </script>
+</body>
+</html>
+
